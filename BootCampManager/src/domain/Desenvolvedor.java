@@ -1,6 +1,5 @@
 package domain;
 
-import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Optional;
 import java.util.Set;
@@ -46,6 +45,7 @@ public class Desenvolvedor {
       this.conteudosIncritos.remove(conteudo.get());
     } else {
       System.err.println("Você não está matriculado em nenhum conteúdo.");  
+      System.out.println("");
     }
   }
 
